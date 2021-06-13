@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  background-image: url("assets/steve-jobs.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 220px;
+}
+
+header .head-top {
+  align-items: center;
+  display: flex;
+  padding: 10px;
+}
+
+header .head-top #back-text {
+  font-size: 18px;
+  width: 37px;
+  height: 23px;
+  padding-left: 10px;
+}
+
+section {
+  color: #462681;
+  border: 1px solid white;
+  border-radius: 40px 40px 0 0;
+  background-color: white;
+  padding: 20px 25px;
+}
+
+section #profile-title {
+  width: 325px;
+  height: 55px;
+}
+
+section .section-profile .profile-follow-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+section .section-profile .profile-follow-icon span {
+  font-weight: 900;
+  width: 53px;
+  height: 18px;
+  padding-left: 5px;
+}
+
+.profile-follow-icon {
+  display: flex;
+}
+
+#profile-title-name {
+  text-align: left;
+  font-size: 44px;
+  font-weight: 900;
+  height: 55px;
+}
+
+#profile-title {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+#profile-title img {
+  padding-top: 10px;
+}
+
+.profile-stats {
+  padding-top: 21px;
+  width: 325px;
+  height: 62px;
+}
+
+.profile-stats ul {
+  line-height: 23px;
+  padding: 6px 0 11px 0px;
+  border-top: 1px solid #462681;
+  border-bottom: 1px solid #462681;
+  display: flex;
+}
+
+.profile-stats ul li {
+  font-weight: 900;
+  display: grid;
+  text-align: center;
+  width: 33.33%;
+}
+
+.profile-stats ul li #profile-stat-count {
+  font-size: 24px;
+}
+
+.profile-stats ul li #profile-stat-list {
+  font-size: 14px;
+}
+
+.categories {
+  padding-top: 41px;
+  padding-left: 5px;
+}
+
+.categories p {
+  font-weight: 900;
+}
+
+.categories ul {
+  padding-top: 9px;
+}
+
+.categories ul li {
+  padding: 21px 0px;
+  justify-content: space-between;
+  display: flex;
+  list-style: none;
+  border-bottom: 1px solid #462681;
+}
+.categories ul li span {
+  font-size: 25px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    height: 441px;
+  }
+}
+
+@media (min-width: 769px) {
+  body {
+    display: none;
+  }
+}
